@@ -163,7 +163,7 @@ def setup():
     squares = []
     while len(squares) == 0:
         time.sleep(1)
-        squares = (list)(pyautogui.locateAllOnScreen('C:\\Users\\nicol\\Documents\\Code\\images\\space.png', grayscale=True, confidence=.9))
+        squares = (list)(pyautogui.locateAllOnScreen('space.png', grayscale=True, confidence=.9))
     
     tiles = []
     for square in enumerate(squares):
